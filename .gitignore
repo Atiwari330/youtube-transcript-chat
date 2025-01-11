@@ -1,0 +1,14 @@
+# Ignore virtual environments
+venv/
+.venv/
+
+# Ignore .env files (keep your API keys secret!)
+.env
+
+# Ignore Streamlit's static file directory
+**/static
+
+# Ignore other common files
+__pycache__/
+*.pyc
+*.db
